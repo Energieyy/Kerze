@@ -1,0 +1,54 @@
+@keyframes flame{
+    0% {
+        fill: #ff8800;
+    }
+    50% {
+        fill: #ff5900;
+    }
+    100% {
+        fill: #f59042;
+    }
+}
+@keyframes show{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#flame{
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+#flame1{
+    animation-name: flame;
+    animation-duration: 4s;
+    animation-iteration-count: 30;
+    fill: #f59042;
+}
+#flame3{
+    animation-name: flame;
+    animation-duration: 5s;
+    animation-iteration-count: 30;
+    fill: #f59042;
+}
+#flame2{
+    animation-name: flame;
+    animation-duration: 2s;
+    animation-iteration-count: 30;
+    fill: #f59042;
+}
+#flame4{
+    animation-name: flame;
+    animation-duration: 6s;
+    animation-iteration-count: 30;
+    fill: #f59042;
+}
+body{
+    background:black;
+    color: white;
+}
