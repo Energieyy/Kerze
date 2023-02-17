@@ -1,12 +1,12 @@
 @keyframes flame{
     0% {
-        fill: #ff8800;
+        fill: #ff6a00c1;
     }
     50% {
-        fill: #ff5900;
+        fill: #ff3700c1;
     }
     100% {
-        fill: #f59042;
+        fill: #ff6a00c1;
     }
 }
 @keyframes show{
@@ -48,6 +48,18 @@
     animation-iteration-count: 30;
     fill: #f59042;
 }
+#flameShadow{
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+#Kerze{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center; 
+}
+
 body{
     background:black;
     color: white;
